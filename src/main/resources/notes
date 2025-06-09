@@ -1,0 +1,4 @@
+UserDetails - represents the User Object. Implement this when you want to customize what a user looks like.
+UserDetailsService - Loads the user from a source. Implement this when you want to tell spring how to look up the user. E.g. Look up user by username:
+UserDetails loadUserByUsername(String username)...
+GrantedAuthority is used for role management and permissions.
